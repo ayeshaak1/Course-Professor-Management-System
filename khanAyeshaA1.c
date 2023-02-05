@@ -221,7 +221,8 @@ int getCourseNum (char cName [50],
 
 /* Task 7
  *
- *
+ * Takes a course number
+ * Search for professors teaching the course and populate the array taughtBy with professor names
  */
 int profsTeachingCourse (int courseNum,
                          struct profStruct profInfo [NUMBER_PROFS],
@@ -246,7 +247,7 @@ int profsTeachingCourse (int courseNum,
 }
 /* Task 8
  *
- *
+ * Calculates and returns the average number of courses taught
  */
 float avgNumCourses (struct profStruct profInfo [NUMBER_PROFS]){
 
