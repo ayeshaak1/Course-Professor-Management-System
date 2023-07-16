@@ -16,15 +16,19 @@ Use the following command to compile the program:
 
 ```bash
 gcc -o course_prof_management main.c givenA1.c -lm
+```
 
-*Running the Program*
+### Running the Program
 To run the program, execute the compiled binary with the filenames of the course and professor data files as command-line arguments:
+```bash
 ./course_prof_management courses.txt data.txt
+```
 
 Replace courses.txt and data.txt with the appropriate filenames containing course and professor information, respectively.
 
 
-**FEATURES**
+## Features 
+
 The Course Professor Management System provides the following features:
 
 Populating an array with names of all professors who teach n or more courses.
@@ -34,7 +38,8 @@ Searching for professors who teach a specific course ID.
 Getting the average number of courses taught by a professor.
 
 
-**USAGE**
+## Usage
+
 Upon running the program, you will be presented with a menu displaying the available options. Enter the corresponding number to select the desired operation.
 
 To find professors who teach n or more courses, choose option 1 and input the minimum number of courses.
@@ -44,16 +49,18 @@ To find professors teaching a specific course ID, choose option 4 and input the 
 To get the average number of courses taught by a professor, choose option 5.
 The program will continue displaying the menu after each operation, allowing you to perform multiple queries.
 
-**DATA FILE FORMAT**
+## Data File Format
+
 The program reads course and professor information from text files in a specific format:
 
-*Courses File (courses.txt)*
+### Courses File (courses.txt)
 The courses file should contain one course per line, with the following format:
 CourseID CourseName
 Example:
 1001 Introduction to Computer Science
 1002 Data Structures and Algorithms
-Professor Data File (data.txt)
+
+### Professor Data File (data.txt)
 The professor data file should contain one professor's information per line, with the following format:
 ProfessorID ProfessorName CourseID1 CourseID2 ... CourseIDN
 Example:
