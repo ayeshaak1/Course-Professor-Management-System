@@ -2,6 +2,7 @@
 This repository contains a C program that implements a Course Professor Management System. The program allows users to manage and query data related to courses and professors. It provides functionalities to read course information from one file and professor information from another file, store the data in appropriate data structures, and perform various operations on the data.
 
 **GETTING STARTED**
+
 *Prerequistes*
 To compile and run the program, you need to have the following installed on your system:
 C Compiler (e.g., GCC)
