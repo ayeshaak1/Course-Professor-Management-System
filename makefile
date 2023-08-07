@@ -1,8 +1,8 @@
-khanAyeshaA1: khanAyeshaA1.o khanAyeshaA1Main.o
-	gcc -Wall -std=c99 khanAyeshaA1.o khanAyeshaA1Main.c -o khanAyeshaA1
-khanAyeshaA1.o: khanAyeshaA1.c givenA1.h
-	gcc -Wall -std=c99 -c khanAyeshaA1.c
-khanAyeshaA1Main.o: khanAyeshaA1Main.c givenA1.h
-	gcc -Wall -std=c99 -c khanAyeshaA1Main.c
+managementSys: managementSys.o main.o
+	gcc -Wall -std=c99 managementSys.o main.c -o managementSys
+managementSys.o: functions.c heaader.h
+	gcc -Wall -std=c99 -c functions.c
+main.o: main.c header.h
+	gcc -Wall -std=c99 -c main.c
 clean:
-	rm *.o khanAyeshaA1
+	rm *.o managementSys
