@@ -1,4 +1,4 @@
-#include "givenA1.h"
+#include "header.h"
 
 int main(int argc, char *argv[]){
     // check that at least 2 files are passed
