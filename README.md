@@ -15,7 +15,7 @@ To compile and run the program, you need to have the following installed on your
 Use the following command to compile the program:
 
 ```bash
-gcc -o course_prof_management main.c givenA1.c -lm
+gcc -o course_prof_management main.c header.h -lm
 ```
 
 ### Running the Program
